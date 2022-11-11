@@ -8,7 +8,7 @@ import os
 from JDatabase import JsonDatabase
 import start
 
-permitidos = ["Zeta30"]
+permitidos = ["ROYZCH"]
 
 def filtrar_text(update, context):
     text = update.message.text
@@ -193,8 +193,8 @@ def filtrar_text(update, context):
 
 # TOKEN
 if __name__ == '__main__':
-    administrador = os.environ.get('Zeta30')
-    bot_token = os.environ.get('5533993982:AAHzGrLBVrIG2vi19-b678AP9_xv9RV2EQI')
+    administrador = os.environ.get('ROYZCH')
+    bot_token = os.environ.get('5761937977:AAHE6Y7ghNrO0c3i3g1y6GdLdF1u9pWDiyg')
     bot = telegram.Bot(token=bot_token)
     updater = Updater(token=bot_token, use_context=True)
 
